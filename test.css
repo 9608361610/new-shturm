@@ -1,8 +1,45 @@
 a {
-    color: red;
+    color: gold;
     font-size: 20px;
 }
 
 div {
-    color: rgba(255,0,0,0.5);
+    color: rgba(255,0,0,0.3);
+}
+
+#d1 {
+    color: green;
+}
+
+.up {
+    font-size: 10px;
+}
+
+.down {
+    font-size: 30px;
+}
+.massag {
+    color: grey;
+    background-color: gainsboro;
+    border: 1px solid darkred;
+    font-size: 20px;
+}
+.success {
+    background-color: greenyellow;
+    color:grey;
+}
+
+.fail {
+    background-color: red;
+    color:aliceblue;
+}
+
+.info {
+    background-color: blue;
+    color:aliceblue;
+}
+   
+.warning {
+    background-color: yellow;
+    color:black;
 }
