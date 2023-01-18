@@ -23,6 +23,11 @@ div {
     background-color: gainsboro;
     border: 1px solid darkred;
     font-size: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
 }
 .success {
     background-color: greenyellow;
@@ -43,3 +48,32 @@ div {
     background-color: yellow;
     color:black;
 }
+
+.massag:hover {
+    border: 10px solid darkred;  
+}
+
+#d2 {
+    background-color: rgb(43, 226, 220);   
+    border: 7px solid rgb(0, 109, 139);
+    padding: 15px;
+    margin: 15px;
+    margin-top: 60px;
+    border-radius: 25px;
+    opacity: 0.9;
+    box-shadow: 10px 10px 7px black;
+    width: 17%;
+    height: auto;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    transform: rotate(30deg) scale(1);
+}
+
+#d2:hover {
+    opacity: 1;
+}
+
+body {
+    background-image: url(2.jpg);
+   }
